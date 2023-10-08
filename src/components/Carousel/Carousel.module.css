@@ -1,0 +1,8 @@
+.Carousel {
+  height: 300px;
+  width: 1250px;
+}
+.carouselBack {
+  background-color: black;
+  color: black;
+}

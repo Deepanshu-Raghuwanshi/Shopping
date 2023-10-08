@@ -1,0 +1,54 @@
+.Carousel {
+  height: 500px;
+  width: 800px;
+}
+.carouselBack {
+  height: 500px;
+  width: 800px;
+  background-color: black;
+  color: black;
+}
+.mainCarosel {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.customArrow {
+  color: rgb(227, 174, 14);
+  font-size: 24px;
+}
+.des {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 700px;
+  border: 2px dotted black;
+  margin: 5px;
+}
+
+.oprice {
+  text-decoration: line-through;
+  padding-right: 10px;
+}
+.price {
+  font-size: large;
+  font-weight: bolder;
+  padding-right: 15px;
+}
+.discount {
+  color: green;
+}
+.subHead {
+  font-weight: bolder;
+}
+.stock {
+  color: green;
+}
+.main {
+  margin: 15px;
+}
+.button {
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+}

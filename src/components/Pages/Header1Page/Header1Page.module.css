@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  border-bottom: 2px solid black;
+}
+.carouselBack {
+  /* align-items: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 450px;
+}
+.CarouselImage {
+  height: 300px;
+  width: 400px;
+  margin: 15px;
+  border: 1px solid black;
+}
+.heading {
+  /* border: 1px solid black; */
+  margin: 5px;
+}
+.subHead {
+  font-weight: bolder;
+}
+.oprice {
+  text-decoration: line-through;
+  padding-right: 10px;
+}
+.price {
+  font-size: large;
+  font-weight: bolder;
+  padding-right: 15px;
+}
+.discount {
+  color: green;
+}
+.stock {
+  color: green;
+}
+.brandName {
+  border-bottom: 1px solid black;
+}
+.des {
+  height: 500px;
+  width: 700px;
+}
+.button {
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+}

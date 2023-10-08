@@ -1,0 +1,29 @@
+.cartItem {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 50vw;
+}
+.image {
+  margin-right: 152px;
+}
+.oprice {
+  text-decoration: line-through;
+  padding-right: 10px;
+}
+.price {
+  font-size: large;
+  font-weight: bolder;
+  padding-right: 15px;
+}
+.discount {
+  color: green;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}

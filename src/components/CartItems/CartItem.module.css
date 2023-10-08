@@ -1,0 +1,43 @@
+.cartItem {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.image1 {
+  margin-right: 152px;
+}
+.oprice {
+  text-decoration: line-through;
+  padding-right: 10px;
+}
+.price {
+  font-size: large;
+  font-weight: bolder;
+  padding-right: 15px;
+}
+.discount {
+  color: green;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20 50 20 20px;
+}
+.emptyCart {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bill {
+  position: relative;
+  top: -16px;
+  right: -506px;
+  height: 290px;
+  width: 500px;
+  border: 2px solid black;
+  margin: 20px;
+}

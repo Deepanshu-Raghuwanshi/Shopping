@@ -1,0 +1,20 @@
+.item {
+  border: 1px solid black;
+  margin: 20px;
+}
+.item:hover{
+  background-color: antiquewhite;
+  cursor: pointer
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+}
+img {
+  height: 150px;
+  width: 175px;
+}
+h3 {
+  text-align: start;
+}
